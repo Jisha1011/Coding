@@ -1,0 +1,28 @@
+package com.Optional;
+
+import java.util.Optional;
+
+public class Main {
+	
+	
+	
+	
+	
+	
+	public static void main(String args [])
+	{
+		
+		Optional<Cat> cat = findCatByName("fred");
+		System.out.println(cat.get().getAge());
+	}
+	
+	
+	
+	public static Optional< Cat> findCatByName(String name)
+	{
+		Cat myCat = new Cat(3,name);
+		return Optional.of(myCat);
+				
+	}
+
+}

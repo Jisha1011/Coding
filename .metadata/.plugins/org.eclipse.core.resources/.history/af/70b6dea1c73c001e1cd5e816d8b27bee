@@ -1,0 +1,34 @@
+package com.subString;
+
+import java.util.HashSet;
+
+public class Substring {
+	
+	
+	
+	public static int subString(String s) {
+		
+		char []str = s.toCharArray();
+		HashSet<Character>h = new HashSet<>();
+	for(int i=0;i<str.length;i++)
+	{
+		h.add(str[i]);
+	}
+	
+	int len = h.size();
+	
+		return len;
+	}
+	
+	
+	public static void main(String args[])
+	{
+		
+		int g=subString("pwwkew");
+		}
+
+}
+
+
+
+

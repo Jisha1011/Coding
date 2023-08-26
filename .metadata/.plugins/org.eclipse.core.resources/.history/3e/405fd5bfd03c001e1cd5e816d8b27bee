@@ -1,0 +1,48 @@
+package com.subString;
+
+import java.util.HashSet;
+import java.util.*;
+
+public class Substring {
+	
+	
+	
+	public static int subString(String s) {
+		String test ="";
+		int maxLength=-1;
+		for (char c : s.toCharArray()) {
+            String current = String.valueOf(c);
+ 
+            // If string already contains the character
+            // Then substring after repeating character
+            if (test.contains(current)) {
+                test = test.substring(test.indexOf(current)
+                                      + 1);
+            }
+            test = test + String.valueOf(c);
+            maxLength = Math.max(test.length(), maxLength);
+        }
+ 
+		return maxLength;
+	}	
+	
+	
+
+	 
+	
+		
+	
+	
+	
+	public static void main(String args[])
+	{
+		
+		int g=subString("dvdf");
+		System.out.println(g);
+		}
+
+}
+
+
+
+

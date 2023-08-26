@@ -1,0 +1,24 @@
+package com.Optional;
+
+public class Main {
+	
+	
+	
+	
+	
+	
+	public static void main(String args [])
+	{
+		
+		Cat cat = findCatByName("fred");
+		System.out.println(cat.getAge());
+	}
+	
+	public static Cat findCatByName(String name)
+	{
+		Cat myCat = new Cat(3,name);
+		return null;
+				
+	}
+
+}

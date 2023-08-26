@@ -1,0 +1,54 @@
+package com.subString;
+
+import java.util.HashSet;
+
+public class Substring {
+	
+	
+	
+	public static int subString(String s) {
+		int len=0;
+		char []str = s.toCharArray();
+		HashSet<Character>h = new HashSet<>();
+	for(int i=0;i<str.length;i++)
+	{
+		h.add(str[i]);
+	}
+	
+String set = h.toString();
+if(s.contains(set))
+{
+System.out.println("yes");	
+}
+
+else
+{
+	for(int i=0;i<set.length();i++)
+	{
+		if(set.contains(set.substring(i)))
+				{
+					
+				}
+		
+	}
+	
+	
+}
+	 len = h.size();
+	
+		return len;
+	}
+	
+	
+	public static void main(String args[])
+	{
+		
+		int g=subString("pwwkew");
+		System.out.println(g);
+		}
+
+}
+
+
+
+

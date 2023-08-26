@@ -1,0 +1,16 @@
+package com.lambdaExpression;
+
+public class Main {
+	
+	
+	public static void main(String arg[])
+	{
+		System.out.println("The main class");
+		Sounds sound = ()->"Meow"+"cat";
+		printSound(sound);
+	}
+	public static void printSound(Sounds s)
+	{
+		System.out.println(s);
+	}
+}

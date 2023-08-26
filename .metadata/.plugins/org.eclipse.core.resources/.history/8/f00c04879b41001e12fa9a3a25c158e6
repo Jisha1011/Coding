@@ -1,0 +1,25 @@
+package com.palindrome.longest;
+
+public class LongestPalindrome {
+	//babad --->aba bab
+	//cbbd --->bb
+	
+	
+	
+	
+	 public String longestPalindrome(String s) {
+		 
+		 
+		 String se = "jisha";
+		 int index = se.indexOf("j");
+		 System.out.println(index);
+	        
+		 return "";
+	    }
+	
+	public static void main(String arg [])
+	{
+		
+	}
+
+}
