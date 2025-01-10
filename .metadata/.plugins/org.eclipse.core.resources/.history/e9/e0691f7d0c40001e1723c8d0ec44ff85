@@ -1,0 +1,11 @@
+package com.lambdaExpression;
+
+public class Cat implements Sounds {
+
+	@Override
+	public String sound() {
+		// TODO Auto-generated method stub
+		return "Meow";
+	}
+
+}

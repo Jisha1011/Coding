@@ -1,0 +1,17 @@
+package com.stock;
+
+public class StockDay {
+	
+	
+	 public int maxProfit(int[] prices) {
+	        
+	    }
+	 
+	 public static void main(String args[])
+	 {
+		 StockDay s= new StockDay();
+		 int[]ar = {7,6,4,3,1};
+		 int val = s.maxProfit(ar);
+	 }
+
+}

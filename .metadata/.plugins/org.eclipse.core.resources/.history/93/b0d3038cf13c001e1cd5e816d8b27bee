@@ -1,0 +1,14 @@
+
+public class asteriods {
+	
+	
+public static int[] asteroidCollision(int[] asteroids) {
+        
+    }
+	
+	public static void main(String args[])
+	{int[] arr = {5,10,-5};
+		asteroidCollision(arr);
+	}
+
+}

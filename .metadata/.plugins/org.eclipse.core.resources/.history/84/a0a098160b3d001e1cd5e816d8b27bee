@@ -1,0 +1,21 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class ThreeSum {
+
+	
+	 public static List<List<Integer>> threeSum(int[] nums) {
+	      List<Integer> ls = new ArrayList<Integer>();
+		 int itrize= nums.length/2;
+		 
+		 return ls;
+	    }
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int arr[] = {-1,0,1,2,-1,-4};
+		threeSum(arr);
+	}
+
+}

@@ -1,0 +1,24 @@
+package com.Optional;
+
+public class Main {
+	
+	
+	
+	
+	
+	
+	public static void main(String args [])
+	{
+		
+		Cat cat = findCatByName("fred");
+		sysout
+	}
+	
+	public static Cat findCatByName(String name)
+	{
+		Cat myCat = new Cat(name,3);
+		return myCat;
+				
+	}
+
+}

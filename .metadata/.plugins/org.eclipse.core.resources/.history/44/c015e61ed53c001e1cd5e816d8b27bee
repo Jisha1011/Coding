@@ -1,0 +1,65 @@
+package com.paranthesis;
+
+public class ValidParanthesis {
+	
+	
+public boolean isValid(String s) {
+        boolean val = false;
+        
+        char[] ar = s.toCharArray();
+        for (int i=0;i<ar.length;i++)
+        {
+        	char c = ar[i];
+        	if(c=='(')
+        	{
+        		if(ar[i+1]==')')
+        		{
+        			val=true;
+        		}
+        		else
+        		{
+        			val=false;
+        		}
+        		i++;
+        	}
+        	else if(c=='[')
+        	{
+        		if(ar[i+1]==']')
+        		{
+        			val=true;
+        		}
+        		else
+        		{
+        			val=false;
+        		}
+        		i++;
+        	}
+        	else if(c=='{')
+        	{if(ar[i+1]=='}')
+    		{
+    			val=true;
+    		}
+    		else
+    		{
+    			val=false;
+    		}
+        		i++;
+        	}
+        	else
+        	{}
+        }
+        
+        
+        
+	return val;
+    }
+
+public static void main(String args[])
+{
+	ValidParanthesis v = new ValidParanthesis();
+boolean val =v.isValid("()");
+
+System.out.println(val);
+}
+
+}

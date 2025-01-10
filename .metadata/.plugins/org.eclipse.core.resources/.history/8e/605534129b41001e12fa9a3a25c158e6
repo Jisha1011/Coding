@@ -1,0 +1,5 @@
+package com.palindrome.longest;
+
+public class LongestPalindrome {
+
+}
